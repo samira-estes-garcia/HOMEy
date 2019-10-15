@@ -1,8 +1,18 @@
+body {
+  margin: 0;
+}
+
 #top-bar-container {
   font-family: Heiti SC;
+  font-weight: 100;
   margin: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#homey-logo {
+  width: 10%;
+  font-weight: 100;
 }
 
 #sign-in-nav {
@@ -19,7 +29,7 @@
 
 #sign-in-info a {
   font-weight: bolder;
-  font-size: 18px;
+  font-size: 15px;
   color: black;
   text-decoration: none;
 }
@@ -30,28 +40,53 @@
 }
 
 #sign-in-nav-search {
-  width: 15px;
-  margin-left: 20px;
-  margin-top: -8px;
+  margin-top: -2px;
+  margin-left: 15px;
+}
+
+#sign-in-nav-search img {
+  width: 55%;
 }
 
 #nav {
-  margin: 20px 100px;
+  margin: 20px 100px 40px;
 }
 
 #nav h1,
 #main-nav button {
   font-family: Heiti SC;
+  font-weight: 100;
+}
+
+#nav h1 {
+  letter-spacing: 0.05em;
 }
 
 #nav button {
   text-decoration: none;
   background-color: #064b76;
   color: white;
+  margin: -5px;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
 }
 
 #nav button:hover {
   cursor: pointer;
+}
+
+.down-arrow {
+  width: 8%;
+  margin: 1px;
+}
+
+#search {
+  background-color: black !important;
+  margin-left: 25px !important;
 }
 
 #hero-img img {
@@ -62,6 +97,7 @@
   font-family: Heiti SC;
   text-align: center;
   font-size: 30px;
+  font-weight: 100;
 }
 
 #website-info-container {
@@ -73,6 +109,62 @@
 
 #website-info-container img {
   width: 25%;
+}
+
+#website-info button {
+  background-color: #064b76;
+  color: white;
+  margin: -5px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+
+#listings {
+  font-family: Heiti SC;
+  text-align: center;
+  background-color: #064b76;
+}
+
+#listings h1 {
+  color: white;
+  padding: 50px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+#property-images {
+  display: flex;
+  justify-content: center;
+}
+
+#property-images img {
+  width: 25%;
+}
+
+#info-container {
+  width: 25%;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px black solid;
+}
+
+#info-container button {
+  background-color: #064b76;
+  color: white;
+  margin: -5px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#home-search {
+  font-family: Heiti SC;
+  text-align: center;
 }
 
 /* color: #064b76 !important; */
