@@ -1,0 +1,78 @@
+#top-bar-container {
+  font-family: Heiti SC;
+  margin: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sign-in-nav {
+  float: right;
+  display: flex;
+  margin-top: 10px;
+}
+
+#sign-in-info span {
+  border: 1.5px #064b76 solid;
+  margin-left: 5px;
+  margin-right: 8px;
+}
+
+#sign-in-info a {
+  font-weight: bolder;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+#sign-in-info a:hover {
+  font-size: 22px;
+  color: #064b76;
+}
+
+#sign-in-nav-search {
+  width: 15px;
+  margin-left: 20px;
+  margin-top: -8px;
+}
+
+#nav {
+  margin: 20px 100px;
+}
+
+#nav h1,
+#main-nav button {
+  font-family: Heiti SC;
+}
+
+#nav button {
+  text-decoration: none;
+  background-color: #064b76;
+  color: white;
+}
+
+#nav button:hover {
+  cursor: pointer;
+}
+
+#hero-img img {
+  width: 100%;
+}
+
+#website-info h1 {
+  font-family: Heiti SC;
+  text-align: center;
+  font-size: 30px;
+}
+
+#website-info-container {
+  font-family: Heiti SC;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#website-info-container img {
+  width: 25%;
+}
+
+/* color: #064b76 !important; */
