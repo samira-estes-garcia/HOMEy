@@ -77,6 +77,8 @@ body {
 
 #nav button:hover {
   cursor: pointer;
+  background-color: #d8651d;
+  border: none;
 }
 
 .down-arrow {
@@ -93,22 +95,40 @@ body {
   width: 100%;
 }
 
+#website-info {
+  margin: 100px 85px;
+}
+
 #website-info h1 {
   font-family: Heiti SC;
   text-align: center;
   font-size: 30px;
   font-weight: 100;
+  margin-top: -30px;
+}
+
+#website-info h2 {
+  font-weight: bolder;
 }
 
 #website-info-container {
   font-family: Heiti SC;
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  margin-top: 40px;
 }
 
 #website-info-container img {
-  width: 25%;
+  width: 40%;
+}
+
+#website-info-container p {
+  width: 45%;
+  margin-left: 25%;
+}
+
+#reviews img {
+  width: 65%;
 }
 
 #website-info button {
@@ -123,10 +143,21 @@ body {
   border-bottom: 0.5px solid black;
 }
 
+#website-info button:hover {
+  cursor: pointer;
+  background-color: #e5e5e5;
+  border: none;
+  color: black;
+}
+
 #listings {
   font-family: Heiti SC;
   text-align: center;
   background-color: #064b76;
+  padding-bottom: 50px;
+}
+
+#listings-container {
 }
 
 #listings h1 {
@@ -141,25 +172,69 @@ body {
   justify-content: center;
 }
 
-#property-images img {
+/* #property-images img {
   width: 25%;
+} */
+
+#main-house {
+  width: 50%;
+}
+
+#left-house {
+  width: 20%;
+}
+
+#right-house {
+  width: 20%;
+}
+
+#property-description {
+  display: flex;
 }
 
 #info-container {
-  width: 25%;
+  width: 35%;
   margin: 0 auto;
   background-color: white;
   border: 1px black solid;
+  border: 2px solid black;
+  margin-top: 10px;
+  height: 30%;
+  padding-bottom: 15px;
+}
+
+#info-container h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#info-container p {
+  font-size: 20px;
+  letter-spacing: 0.1 em;
+  margin-top: -5px;
 }
 
 #info-container button {
   background-color: #064b76;
   color: white;
   margin: -5px;
-  width: 150px;
-  height: 40px;
+  width: 200px;
   font-size: 18px;
   padding: 10px;
+}
+
+#info-container button:hover {
+  cursor: pointer;
+  background-color: #d8651d;
+}
+
+#left-btn {
+  background-color: #064b76;
+  border: none;
+}
+
+#left-btn:hover {
+  cursor: pointer;
 }
 
 #home-search {
